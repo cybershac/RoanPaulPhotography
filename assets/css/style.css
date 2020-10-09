@@ -231,6 +231,7 @@ img {
 }
 .about__img img{
     width: 100px;
+    /* height: 100px; */
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
