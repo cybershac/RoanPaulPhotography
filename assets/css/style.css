@@ -122,7 +122,7 @@ img {
     align-items: center;
 }
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
         top: var(--header-height);
@@ -151,6 +151,7 @@ img {
 
 .nav__logo{
     color: var(--white-color);
+    font-size: 3rem;
 }
 
 .nav__toggle{
@@ -443,7 +444,8 @@ img {
 
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        align-items: flex-start;
+        align-content: center;
     }
 
     .portfolio__container{
