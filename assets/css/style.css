@@ -4,7 +4,7 @@
     --header-height: 3rem;
     --font-medium: 500;
     /* colours */
-    --first-color: #5361FF;
+    --first-color: #5361FF; /*nikon: ffe100*/
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -74,6 +74,7 @@ img {
 
 .section {
     padding: 3rem 0;
+    min-height: 100vh;
 }
 .section-title {
     position: relative;
@@ -107,6 +108,7 @@ img {
 }
 .l-header{
     width: 100%;
+    height: var(--header-height);
     position: fixed;
     top: 0;
     left: 0;
@@ -151,7 +153,6 @@ img {
 
 .nav__logo{
     color: var(--white-color);
-    font-size: 3rem;
 }
 
 .nav__toggle{
@@ -231,8 +232,7 @@ img {
     overflow: hidden;
 }
 .about__img img{
-    width: 100px;
-    /* height: 100px; */
+    width: 165px;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
@@ -356,6 +356,7 @@ img {
 /* footer */
 .footer{
     background-color: var(--dark-color);
+    min-height: max-content;
 }
 .footer__container{
     row-gap: 2rem;
