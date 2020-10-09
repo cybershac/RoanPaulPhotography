@@ -40,3 +40,5 @@ function scrollActive(){
         }
     })
 }
+
+// scroll reveal animation
