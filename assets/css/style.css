@@ -212,7 +212,11 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+}
+
+.home__container img{
+    max-height: calc(100vh - var(--header-height));
+    width: auto;
 }
 
 /* about */
