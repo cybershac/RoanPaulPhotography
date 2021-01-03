@@ -4,7 +4,9 @@
     --header-height: 3rem;
     --font-medium: 500;
     /* colours */
-    --first-color: #5361FF; /*nikon: ffe100*/
+    --first-color: #FFE100;
+    --black-color: #000000;
+    /*nikon: ffe100*/
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -113,7 +115,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color: var(--black-color);
 }
 
 /* navbar */
@@ -144,7 +146,7 @@ img {
 
 .nav__link{
     position: relative;
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
 }
 
 .nav__link:hover{
@@ -152,11 +154,11 @@ img {
 }
 
 .nav__logo{
-    color: var(--white-color);
+    color: var(--first-color);
 }
 
 .nav__toggle{
-    color: var(--white-color);
+    color: var(--first-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -180,7 +182,7 @@ img {
 /* home */
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background-color: var(--black-color);
     overflow: hidden;
 }
 .home__container{
@@ -190,7 +192,7 @@ img {
 .home__title{
     align-self: flex-end;
     font-size: var(--big-font-size);
-    color: var(--white-color);
+    color: var(--first-color);
     line-height: .8;
 }
 .home__title span {
@@ -205,7 +207,7 @@ img {
 .home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
-    color: var(--white-color);
+    color: var(--first-color);
 }
 
 .home__img{
@@ -233,6 +235,7 @@ img {
     height: 120px;
     background-color: var(--first-color);
     border-radius: 50%;
+    border: var(--black-color) 2px solid;
     overflow: hidden;
 }
 .about__img img{
@@ -414,7 +417,7 @@ img {
         display: none;
     }
     .nav__link{
-        color: var(--white-color);
+        color: var(--first-color);
     }
     .nav__link:hover{
         color: var(--white-color);
